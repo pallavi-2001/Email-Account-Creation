@@ -1,21 +1,21 @@
 #Email Creation Application using Java
 
-  This is a simple java projct.That simulates the process of creating and managing employee email account for a company
+  This is a simple java project.That simulates the process of creating and managing employee email account for a company
   
   -##Project structure
   
-    **EmailApp.java
+    **EmailApp.java**
 
     This is the main class containing a main method.It interacts with the users to :
       --Check if they you are a new employee
       --Collect first and last name
       --Create a email account using a 'Email' class
       
-    **Email.java
+    **Email.java**
 
     This class handles Email account creation logic.It includes a feature like 
       --Generating a passward and Changing the passward
-      --Creating a standard Email formet by using employee name and department
+      --Creating a standard Email format by using employee name and department
       --Setting mail box capacity and alternative Email
 
   -##Features
