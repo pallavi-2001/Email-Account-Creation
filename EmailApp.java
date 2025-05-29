@@ -6,8 +6,10 @@ public class EmailApp {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
+
+	    //Checking weather a new employee or not
         System.out.println("Are you a new Employee(Yes/No)? : ");
-        String confirm=sc.next();
+	    String confirm=sc.next();
         if(confirm.equalsIgnoreCase("Yes")){
             //Reading employee name by 2 ways 
             //Use any one way at each time by commenting one
